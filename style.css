@@ -1,0 +1,46 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .background{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        overflow: hidden;
+        background-size: cover;
+        background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/8646c479493401.5cc4c9ebb7d99.png");
+    }
+    .background h1{
+        text-align: center;
+        color: white;
+        padding: 20px;
+        font-size: 60px;
+        letter-spacing: 5px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .details{
+        background-color: rgba(51, 51, 51, 0.445);
+        width: 30%;
+        height: 100vh;
+        position: absolute;
+        right: 0%;
+    }
+    .weather {
+        color: white;
+        display: flex;
+        display: inline;
+        text-align: center;
+
+    }
+    .parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .weather-details{
+        color: white;
+    }
